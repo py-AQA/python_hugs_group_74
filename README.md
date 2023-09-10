@@ -1,4 +1,4 @@
-![1642320423853](https://drive.google.com/file/d/1-0qNKrOB8DkYaq_dFnWAI-EMzg1sde9O/view?usp=sharing)
+![1642320423853](https://techrocks.ru/wp-content/uploads/2020/07/python-books-min-1024x600-1.jpg)
 
 
 # Задачи на Python
