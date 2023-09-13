@@ -3,11 +3,11 @@
 # Базовый пример декоратора, который проверяет,
 # имеет ли пользователь право на выполнение функции:
 
-def permission_required(permission):
+def требуемая_роль(роль: str):
     def decorator(func):
         def wrapper(user, *args, **kwargs):
-            if user.get('permission') != permission:
-                raise PermissionError(f"Пользователь {user.get('name')} не имеет разрешения {permission} для выполнения этой операции.")
+            if user.get('роль') != роль:
+                raise PermissionError(f"Пользователь {user.get('имя_пользователя')} не имеет разрешения {роль} для выполнения этой операции.")
             return func(user, *args, **kwargs)
 
         return wrapper
@@ -15,13 +15,14 @@ def permission_required(permission):
     return decorator
 
 
-@permission_required('admin')
+@требуемая_роль('admin')
 def restricted_function(user):
-    print(f"Доступ разрешен для {user.get('name')}.")
+    print(f"Доступ разрешен для {user.get('имя_пользователя')}.")
 
 
-user1 = {'name': 'Алексей', 'permission': 'admin'}
-user2 = {'name': 'Мария', 'permission': 'user'}
 
-restricted_function(user1)  # Должно работать без ошибок
-restricted_function(user2)  # Должно вызвать ошибку PermissionError
+Алексей = {'имя_пользователя': 'Алексей', 'роль': 'admin'}
+Мария = {'имя_пользователя': 'Мария', 'роль': 'user'}
+
+restricted_function(Алексей)  # Должно работать без ошибок
+restricted_function(Мария)  # Должно вызвать ошибку PermissionError
