@@ -13,3 +13,5 @@
 ![codewars](https://www.codewars.com/users/oldwarrior/badges/large)
 
 ![codewars](https://www.codewars.com/users/Katsiaryna_Butsyanava/badges/large)
+
+![codewars](https://www.codewars.com/users/NastyaAtai/badges/large)
