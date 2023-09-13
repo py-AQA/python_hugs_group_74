@@ -6,6 +6,8 @@
 
 ![codewars](https://www.codewars.com/users/EdSever/badges/large)
 
+![codewars](https://www.codewars.com/users/Riksik/badges/large)
+
 ![codewars](https://www.codewars.com/users/CytoClown/badges/large)
 
 ![codewars](https://www.codewars.com/users/oldwarrior/badges/large)
