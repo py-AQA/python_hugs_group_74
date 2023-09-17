@@ -18,6 +18,7 @@ def diamond(n):
 # кусочек проверки с кодварс
 assert diamond(5) == "  *\n ***\n*****\n ***\n  *\n", "не то!"
 assert diamond(0) is None, "не то!"
+assert diamond(2) is None, "не то!"
 assert diamond(-1) is None, "не то!"
 
 # отображение красоты ради
