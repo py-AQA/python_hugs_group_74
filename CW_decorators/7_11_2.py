@@ -23,7 +23,7 @@
 def func_show(f):
     def inner(*args):
         res = f(*args)
-        print f"Площадь прямоугольника: {res}"
+        print(f"Площадь прямоугольника: {res}")
         return res
     return inner
 def get_sq(width, height):
