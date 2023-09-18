@@ -18,8 +18,8 @@ def sort_list(func):
     return inner
 
 @sort_list
-def get_list(str_1):
-    return [*map(int, str_1.split())]
+def get_list(s):
+    return [*map(int, s.split())]
 
 
 # ===================== проверка =====================
