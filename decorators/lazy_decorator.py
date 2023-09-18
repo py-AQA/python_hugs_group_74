@@ -1,3 +1,4 @@
+# https://www.codewars.com/kata/601d457ce00e9a002ccb7403
 def lazy(n: int):
     assert n != 0, "n не должно быть равно 0"
 
