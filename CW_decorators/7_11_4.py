@@ -11,8 +11,15 @@
 # -5 3 4 8 10 11
 
 # ===================== ваш код =====================
+def sort_list(func):
+    def inner(*args, **kwargs):
+        res = sorted(func(*args, **kwargs))
+        return res
+    return inner
 
-
+@sort_list
+def get_list(str_1):
+    return [*map(int, str_1.split())]
 
 
 # ===================== проверка =====================
