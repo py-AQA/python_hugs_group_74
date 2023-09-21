@@ -14,6 +14,7 @@ def anything(thing):
     return Anything()
 
 
+# проверка
 test.expect(anything({}) != [], "A Dictionary can not equal to a List")
 test.expect(anything('Hello') < 'World', "The String Hello can be less than the String world")
 test.expect(anything(80) > 81, "80 can be greater than 81")
