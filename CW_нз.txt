@@ -1,14 +1,22 @@
-0.            replace             	  https://www.codewars.com/kata/554e4a2f232cdd87d9000038
-1.			6kyu 	sub&sub  *       		    https://www.codewars.com/kata/57f8ff867a28db569e000c4a
-2.					  class geom              https://www.codewars.com/kata/58dced7b702b805b200000be
-3.			6kyu 	resplit slice *  		    https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991
-4.			8kyu 	map ord lc       		    https://www.codewars.com/kata/572b6b2772a38bc1e700007a
-5.			7kyu 	enum mod         	    	https://www.codewars.com/kata/590e03aef55cab099a0002e8
-6. 			8kyu 	round vs .2f     	    	https://www.codewars.com/kata/5977618080ef220766000022
-7. 			7kyu 	sorted key              https://www.codewars.com/kata/57eba158e8ca2c8aba0002a0
-8. 			7kyu 	sorted pos              https://www.codewars.com/kata/5a512f6a80eba857280000fc
-9. 			7kyu 	zip sum  *              https://www.codewars.com/kata/5a523566b3bfa84c2e00010b
-10. 		8kyu 	re sub                  https://www.codewars.com/kata/5aa736a455f906981800360d
-11.  		7kyu 	[::-1]                  https://www.codewars.com/kata/5ba38ba180824a86850000f7
-12.  		6kyu 	strng                   https://www.codewars.com/kata/53697be005f803751e0015aa
-13.  		7kyu 	lambda                  https://www.codewars.com/kata/538835ae443aae6e03000547
+6kyu 	sub&sub  *       		https://www.codewars.com/kata/57f8ff867a28db569e000c4a
+6kyu 	resplit slice *  		https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991
+7kyu 	zip sum  *              https://www.codewars.com/kata/5a523566b3bfa84c2e00010b
+6kyu 	strng                   https://www.codewars.com/kata/53697be005f803751e0015aa
+
+7kyu 	enum mod         	    https://www.codewars.com/kata/590e03aef55cab099a0002e8
+7kyu 	sorted key              https://www.codewars.com/kata/57eba158e8ca2c8aba0002a0
+7kyu 	sorted pos              https://www.codewars.com/kata/5a512f6a80eba857280000fc
+7kyu 	[::-1]                  https://www.codewars.com/kata/5ba38ba180824a86850000f7
+7kyu 	lambda                  https://www.codewars.com/kata/538835ae443aae6e03000547
+
+8kyu 	map ord lc    https://www.codewars.com/kata/572b6b2772a38bc1e700007a
+8kyu 	round vs .2f  https://www.codewars.com/kata/5977618080ef220766000022
+8kyu 	re sub        https://www.codewars.com/kata/5aa736a455f906981800360d
+class geom            https://www.codewars.com/kata/58dced7b702b805b200000be
+replace               https://www.codewars.com/kata/554e4a2f232cdd87d9000038
+7kyu factorial sum lc https://www.codewars.com/kata/5a4d303f880385399b000001
+8kyu lc               https://www.codewars.com/kata/585b1fafe08bae9988000314
+7kyu pairs ls sum     https://www.codewars.com/kata/5a3e1319b6486ac96f000049
+7kyu str 0>5          https://www.codewars.com/kata/51c89385ee245d7ddf000001
+7kyu slice            https://www.codewars.com/kata/580755730b5a77650500010c
+7kyu index min        https://www.codewars.com/kata/544a54fd18b8e06d240005c0
