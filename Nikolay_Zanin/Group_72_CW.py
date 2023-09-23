@@ -5,7 +5,7 @@ def get_sq(w, h):
 def func_show(f):
     def inner(*args):
         res = f(*args)
-        print (f"Площадь прямоуголтника: {res}")
+        print (f"Площадь прямоугольника: {res}")
         return res
     return inner
 
