@@ -12,7 +12,6 @@
 8kyu 	map ord lc    https://www.codewars.com/kata/572b6b2772a38bc1e700007a
 8kyu 	round vs .2f  https://www.codewars.com/kata/5977618080ef220766000022
 8kyu 	re sub        https://www.codewars.com/kata/5aa736a455f906981800360d
-class geom            https://www.codewars.com/kata/58dced7b702b805b200000be
 replace               https://www.codewars.com/kata/554e4a2f232cdd87d9000038
 7kyu factorial sum lc https://www.codewars.com/kata/5a4d303f880385399b000001
 8kyu lc               https://www.codewars.com/kata/585b1fafe08bae9988000314
