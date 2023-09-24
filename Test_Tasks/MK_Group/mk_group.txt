@@ -22,4 +22,14 @@ https://www.w3schools.com/sql/trysql.asp?filename=trysql_asc
 Список должен идти по убыванию от клиентов с большим количеством заказов к клиентам с меньшим количеством заказов
 
 #решение задачи 3
+# общими усилиями привели к таком виду запрос, всем участникам низкий поклон ;), замечания, доработки и улучшения приветствуются.
 
+SELECT Customers.CustomerID,
+	CustomerName,
+	COUNT(OrderID) as total_orders,
+	MAX(OrderDate) as last_order_date
+FROM Customers
+	JOIN Orders on Orders.CustomerID = Customers.CustomerID
+GROUP BY Customers.CustomerID
+HAVING total_orders > 5
+ORDER BY total_orders DESC;
