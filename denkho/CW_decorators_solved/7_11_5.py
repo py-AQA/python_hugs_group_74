@@ -18,7 +18,16 @@
 # ===================== ваш код =====================
 
 
+def lst2dict(func):
+    def wrapper(*args):
+        a, b = func(*args)
+        res = dict(zip(a, b))
+        return res
+    return wrapper
 
+@lst2dict
+def str2lst(one: str, two: str) -> tuple:
+    return one.split(), two.split()
 
 
 # ===================== проверка =====================

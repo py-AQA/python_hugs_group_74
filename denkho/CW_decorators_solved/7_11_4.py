@@ -12,10 +12,19 @@
 
 # ===================== ваш код =====================
 
+def sort_list(func):
+    def wrapper(*args):
+        result = func(*args)
+        return sorted(result)
+    return wrapper
+
+@sort_list
+def get_list(s: str) -> list:
+    return list(map(int, s.split()))
 
 # ===================== проверка =====================
 assert sort_list, "декоратор не найден"
 str_1 = "8 11 -5 4 3 10"
 lst = get_list(str_1)
-assert lst == [-5, 3, 4, 8, 10, 11], "функция get_list вернула неожиданный результат"
+assert lst == [-5, 3, 4, 8, 10, 11], f"функция get_list вернула неожиданный результат {get_list(str_1)}"
 print(*lst)
