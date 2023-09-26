@@ -9,9 +9,3 @@
 7kyu 	[::-1]                  https://www.codewars.com/kata/5ba38ba180824a86850000f7
 7kyu 	lambda                  https://www.codewars.com/kata/538835ae443aae6e03000547
 
-7kyu lc               https://www.codewars.com/kata/592e830e043b99888600002d
-8kyu lc               https://www.codewars.com/kata/585b1fafe08bae9988000314
-7kyu pairs ls sum     https://www.codewars.com/kata/5a3e1319b6486ac96f000049
-7kyu str 0>5          https://www.codewars.com/kata/51c89385ee245d7ddf000001
-7kyu slice            https://www.codewars.com/kata/580755730b5a77650500010c
-7kyu index min        https://www.codewars.com/kata/544a54fd18b8e06d240005c0
