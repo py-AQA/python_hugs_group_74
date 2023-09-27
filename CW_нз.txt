@@ -10,13 +10,6 @@
 6kyu    2for                    https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08
 6kyu    queue                   https://www.codewars.com/kata/57b06f90e298a7b53d000a86
 
-8kyu    classes                 https://www.codewars.com/kata/55a144eff5124e546400005a
-7kyu    lc                      https://www.codewars.com/kata/563089b9b7be03472d00002b
-7kyu    enum mod                https://www.codewars.com/kata/590e03aef55cab099a0002e8
-7kyu    sorted key              https://www.codewars.com/kata/57eba158e8ca2c8aba0002a0
-7kyu    sorted pos              https://www.codewars.com/kata/5a512f6a80eba857280000fc
-7kyu    [::-1]                  https://www.codewars.com/kata/5ba38ba180824a86850000f7
-7kyu    zip sum  *              https://www.codewars.com/kata/5a523566b3bfa84c2e00010b
 7kyu    lambda                  https://www.codewars.com/kata/538835ae443aae6e03000547
 7kyu    zip any                 https://www.codewars.com/kata/56a24b4d9f3671584d000039
 7kyu    max triplet             https://www.codewars.com/kata/5aa1bcda373c2eb596000112
