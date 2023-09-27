@@ -1,0 +1,16 @@
+6kyu    str rev swapcase        https://www.codewars.com/kata/5878520d52628a092f0002d0
+6kyu    sub&sub  *              https://www.codewars.com/kata/57f8ff867a28db569e000c4a
+6kyu    resplit slice *         https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991
+6kyu    strng                   https://www.codewars.com/kata/53697be005f803751e0015aa
+6kyu    arr incrementer         https://www.codewars.com/kata/5514e5b77e6b2f38e0000ca9
+5kyu    str incrementer         https://www.codewars.com/kata/54a91a4883a7de5d7800009c
+6kyu    rev_alt                 https://www.codewars.com/kata/58d76854024c72c3e20000de
+6kyu    enc\dec [::]zip         https://www.codewars.com/kata/57814d79a56c88e3e0000786
+6kyu    rev_process             https://www.codewars.com/kata/5dad6e5264e25a001918a1fc
+6kyu    2for                    https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08
+6kyu    queue                   https://www.codewars.com/kata/57b06f90e298a7b53d000a86
+
+7kyu    lambda                  https://www.codewars.com/kata/538835ae443aae6e03000547
+7kyu    zip any                 https://www.codewars.com/kata/56a24b4d9f3671584d000039
+7kyu    max triplet             https://www.codewars.com/kata/5aa1bcda373c2eb596000112
+7kyu    replace                 https://www.codewars.com/kata/557af4c6169ac832300000ba
