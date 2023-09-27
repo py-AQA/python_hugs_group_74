@@ -31,21 +31,36 @@ The order of the queue NEVER changes, and
 The front person in the queue (i.e. the first element in the array/list) proceeds to a till as soon as it becomes free.
 N.B. You should assume that all the test input will be valid, as specified above
 '''
-def queue_time(in_list: list, num: int) -> int:
-    kassa = [0,] * num
+
+
+def queue_time2(in_list: list, num: int) -> int:
+    kassa = [0, ] * num
     for i in range(len(kassa)):
         for j in range(i, len(in_list)):
+            rr = in_list[j::num]
             kassa[i] += sum(in_list[j::num])
             break
 
     return max(kassa)
 
-assert queue_time([2,2,3,3,4,4], 2) == 9
-assert queue_time([1,2,3,4,5], 1) == 15
+def queue_time(in_list: list, num: int) -> int:
+    if len(in_list) == 0:
+        return 0
+    kassa = [0, ] * num
+    kassa[:num] = in_list[:num]
+    for j in range(num, len(in_list)):
+        kassa[kassa.index(min(kassa))] += in_list[j]
+
+    return max(kassa)
+
+
+assert queue_time([2, 2, 3, 3, 4, 4], 2) == 9
+assert queue_time([1, 2, 3, 4, 5], 1) == 15
 assert queue_time([], 1) == 0
 assert queue_time([5], 1) == 5
 assert queue_time([2], 5) == 2
-
-assert queue_time([1,2,3,4,5], 100) == 5
+assert queue_time([1, 2, 3, 4, 5], 100) == 5
+assert queue_time([43, 14, 19, 30, 42, 33, 22, 39, 24, 50, 9, 28, 28, 41, 44, 41, 41, 32, 34], 6) == 117
+assert queue_time([2, 25, 44, 30, 27, 15, 26, 5, 27, 4, 19, 16], 5) == 54
 
 print('That\'s good')
