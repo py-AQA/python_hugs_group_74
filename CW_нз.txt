@@ -5,6 +5,8 @@
 6kyu    arr incrementer         https://www.codewars.com/kata/5514e5b77e6b2f38e0000ca9
 5kyu    str incrementer         https://www.codewars.com/kata/54a91a4883a7de5d7800009c
 6kyu    rev_alt                 https://www.codewars.com/kata/58d76854024c72c3e20000de
+6kyu    enc\dec [::]zip         https://www.codewars.com/kata/57814d79a56c88e3e0000786
+6kyu    rev_process             https://www.codewars.com/kata/5dad6e5264e25a001918a1fc
 
 7kyu    enum mod                https://www.codewars.com/kata/590e03aef55cab099a0002e8
 7kyu    sorted key              https://www.codewars.com/kata/57eba158e8ca2c8aba0002a0
