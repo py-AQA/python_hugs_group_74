@@ -7,6 +7,7 @@
 6kyu    enc\dec [::]zip         https://www.codewars.com/kata/57814d79a56c88e3e0000786
 6kyu    rev_process             https://www.codewars.com/kata/5dad6e5264e25a001918a1fc
 
+8kyu    classes                 https://www.codewars.com/kata/55a144eff5124e546400005a
 7kyu    lc                      https://www.codewars.com/kata/563089b9b7be03472d00002b
 7kyu    enum mod                https://www.codewars.com/kata/590e03aef55cab099a0002e8
 7kyu    sorted key              https://www.codewars.com/kata/57eba158e8ca2c8aba0002a0
