@@ -8,6 +8,7 @@
 6kyu    enc\dec [::]zip         https://www.codewars.com/kata/57814d79a56c88e3e0000786
 6kyu    rev_process             https://www.codewars.com/kata/5dad6e5264e25a001918a1fc
 6kyu    2for                    https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08
+6kyu    queue                   https://www.codewars.com/kata/57b06f90e298a7b53d000a86
 
 8kyu    classes                 https://www.codewars.com/kata/55a144eff5124e546400005a
 7kyu    lc                      https://www.codewars.com/kata/563089b9b7be03472d00002b
