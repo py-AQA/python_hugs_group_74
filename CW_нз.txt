@@ -9,8 +9,12 @@
 6kyu    rev_process             https://www.codewars.com/kata/5dad6e5264e25a001918a1fc
 6kyu    2for                    https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08
 6kyu    queue                   https://www.codewars.com/kata/57b06f90e298a7b53d000a86
+6kyu    snakes&ladders          https://www.codewars.com/kata/587136ba2eefcb92a9000027
 
+8kyu    class over              https://www.codewars.com/kata/55a14aa4817efe41c20000bc
 7kyu    lambda                  https://www.codewars.com/kata/538835ae443aae6e03000547
 7kyu    zip any                 https://www.codewars.com/kata/56a24b4d9f3671584d000039
 7kyu    max triplet             https://www.codewars.com/kata/5aa1bcda373c2eb596000112
 7kyu    replace                 https://www.codewars.com/kata/557af4c6169ac832300000ba
+7kyu    reverse [::-1]          https://www.codewars.com/kata/56dbe0e313c2f63be4000b25
+
