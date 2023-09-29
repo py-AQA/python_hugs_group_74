@@ -17,6 +17,7 @@
 8kyu    class mthd              https://www.codewars.com/kata/54dba07f03e88a4cec000caf
 7kyu    zip any                 https://www.codewars.com/kata/56a24b4d9f3671584d000039
 7kyu    max triplet             https://www.codewars.com/kata/5aa1bcda373c2eb596000112
+7kyu    makeClass               https://www.codewars.com/kata/5d774cfde98179002a7cb3c8
 7kyu    replace                 https://www.codewars.com/kata/557af4c6169ac832300000ba
 7kyu    reverse [::-1]          https://www.codewars.com/kata/56dbe0e313c2f63be4000b25
 
