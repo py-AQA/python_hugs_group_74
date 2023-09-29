@@ -12,10 +12,15 @@
 # 26
 
 # ===================== ваш код =====================
+def nice(func, start=5):
+    def wrapper(*args):
+        s = func(*args)
+        return s + start
+    return wrapper
 
-
-
-
+@nice
+def mysum(s: str) -> int:
+    return sum(list(map(int, s.split())))
 
 # ===================== проверка =====================
 assert nice, "декоратор не найден"
