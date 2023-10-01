@@ -12,15 +12,5 @@
 6kyu    queue                   https://www.codewars.com/kata/57b06f90e298a7b53d000a86
 
 
-
-7kyu  sort slice   https://www.codewars.com/kata/53d32bea2f2a21f666000256
-7kyu  replace      https://www.codewars.com/kata/5831c204a31721e2ae000294
-7kyu  str change   https://www.codewars.com/kata/59cfc09a86a6fdf6df0000f1
-7kyu  sort odd     https://www.codewars.com/kata/5af15a37de4c7f223e00012d
-6kyu  sort replace https://www.codewars.com/kata/5d23d89906f92a00267bb83d
-6kyu  sum of pow   https://www.codewars.com/kata/5592e3bd57b64d00f3000047
-6kyu  chr in sum   https://www.codewars.com/kata/57f625992f4d53c24200070e
-7kyu  chuncks      https://www.codewars.com/kata/5650ab06d11d675371000003
-
 6kyu    snakes&ladders          https://www.codewars.com/kata/587136ba2eefcb92a9000027
 6kyu    maze runner             https://www.codewars.com/kata/58663693b359c4a6560001d6
