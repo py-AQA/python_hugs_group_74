@@ -16,7 +16,16 @@
 # ===================== ваш код =====================
 
 
+def dec_with_parm(tag):
+    def decorator(func):
+        def wrapper(*args):
+            return f'<{tag}>{func(*args)}</{tag}>'
+        return wrapper
+    return decorator
 
+@dec_with_parm('div')
+def function_low(s: str) -> str:
+    return s.lower()
 
 
 # ===================== проверка =====================

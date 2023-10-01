@@ -15,9 +15,21 @@
 # Примените декоратор к функции get_list, но не вызывайте ее.
 
 # ===================== ваш код =====================
+from functools import wraps
+
+def sumitems(func):
+    @wraps(func)
+    def wrapper(*args):
+        a = func(*args)
+        return sum(a)
+    return wrapper
 
 
-
+@sumitems
+def get_list(s):
+    """Функция для формирования списка целых значений"""
+    r = [int(i) for i in s.split()]
+    return r
 
 
 # ===================== проверка =====================
