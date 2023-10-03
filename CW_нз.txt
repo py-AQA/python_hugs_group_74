@@ -14,6 +14,7 @@
 
 Для вечернего кодварса 03.10.2023
 7kyu [::-1] len           https://www.codewars.com/kata/54557d61126a00423b000a45
+7kyu str map int sum      https://www.codewars.com/kata/55afed09237df73343000042
 7kyu enum lower str       https://www.codewars.com/kata/55d410c492e6ed767000004f
 7kyu lc range             https://www.codewars.com/kata/593c9175933500f33400003e
 7kyu count ternaryif      https://www.codewars.com/kata/57ee24e17b45eff6d6000164
