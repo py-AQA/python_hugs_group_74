@@ -12,5 +12,20 @@
 6kyu    queue                   https://www.codewars.com/kata/57b06f90e298a7b53d000a86
 
 
-6kyu    snakes&ladders          https://www.codewars.com/kata/587136ba2eefcb92a9000027
+Для вечернего кодварса 03.10.2023
+7kyu [::-1] len           https://www.codewars.com/kata/54557d61126a00423b000a45
+7kyu enum lower str       https://www.codewars.com/kata/55d410c492e6ed767000004f
+7kyu lc range             https://www.codewars.com/kata/593c9175933500f33400003e
+7kyu count ternaryif      https://www.codewars.com/kata/57ee24e17b45eff6d6000164
+7kyu split\join           https://www.codewars.com/kata/5f77d62851f6bc0033616bd8
+7kyu translate\maketrans  https://www.codewars.com/kata/57c1ab3949324c321600013f
+7kyu sum                  https://www.codewars.com/kata/58e0f0bf92d04ccf0a000010
+6kyu dict ternaryif       https://www.codewars.com/kata/57fb44a12b53146fe1000136
+6kyu func chain           https://www.codewars.com/kata/54ca3e777120b56cb6000710
+
+5kyu    snakes&ladders          https://www.codewars.com/kata/587136ba2eefcb92a9000027
 6kyu    maze runner             https://www.codewars.com/kata/58663693b359c4a6560001d6
+
+4translate\maketrans
+@8(D3F6#!JK1MN0PQR$7UVWXY2
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
