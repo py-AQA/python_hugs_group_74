@@ -23,10 +23,17 @@
 7kyu sum                  https://www.codewars.com/kata/58e0f0bf92d04ccf0a000010
 6kyu dict ternaryif       https://www.codewars.com/kata/57fb44a12b53146fe1000136
 6kyu func chain           https://www.codewars.com/kata/54ca3e777120b56cb6000710
+6kyu    maze runner       https://www.codewars.com/kata/58663693b359c4a6560001d6
 
-5kyu    snakes&ladders          https://www.codewars.com/kata/587136ba2eefcb92a9000027
-6kyu    maze runner             https://www.codewars.com/kata/58663693b359c4a6560001d6
-
-4translate\maketrans
-@8(D3F6#!JK1MN0PQR$7UVWXY2
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Для вечернего кодварса 04.10.2023
+"# abcdefghijklmnopqrstuvwxyz"
+7kyu  super easy            https://www.codewars.com/kata/55955a48a4e9c1a77500005a
+7kyu  index sum enumerate   https://www.codewars.com/kata/598d91785d4ce3ec4f000018
+6kyu  func zip lc\map       https://www.codewars.com/kata/5825792ada030e9601000782
+7kyu  sorted\max  key       https://www.codewars.com/kata/5939ab6eed348a945f0007b2
+7kyu  [::2] [-1]            https://www.codewars.com/kata/5a1a9e5032b8b98477000004
+7kyu  regexp fullmatch      https://www.codewars.com/kata/567bed99ee3451292c000025
+7kyu  list\str  join        https://www.codewars.com/kata/5768a693a3205e1cc100071f
+6kyu  recursive list  cnt   https://www.codewars.com/kata/596f72bbe7cd7296d1000029
+6kyu  func closure          https://www.codewars.com/kata/5421c6a2dda52688f6000af8
+5kyu  snakes&ladders        https://www.codewars.com/kata/587136ba2eefcb92a9000027
