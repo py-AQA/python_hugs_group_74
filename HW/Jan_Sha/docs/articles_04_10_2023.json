@@ -1,0 +1,167 @@
+{
+    "Как я статистику git парсил": [
+        "https://habr.com/ru/articles/763342/"
+    ],
+    "Назад в будущее. История создания": [
+        "https://habr.com/ru/companies/vstack/articles/763974/"
+    ],
+    "GPT-4V, который видит — что он умеет": [
+        "https://habr.com/ru/companies/orbita/articles/765156/"
+    ],
+    "Испытания 5 отечественных автомобильных аккумуляторов в корпусе D23. Часть 1: лечим разбалансировку": [
+        "https://habr.com/ru/companies/ruvds/articles/764206/"
+    ],
+    "Неограниченный доступ к знаниям: библиотека Стандартных Шаблонных Конструкций": [
+        "https://habr.com/ru/articles/764272/"
+    ],
+    "Сказка про собес наоборот": [
+        "https://habr.com/ru/articles/765174/"
+    ],
+    "Библиотека Scout — быстрый и безопасный DI на Kotlin": [
+        "https://habr.com/ru/companies/yandex/articles/764920/"
+    ],
+    "Минцифрова гора, суверенная мышь и 0,0037%-ное импортозамещение": [
+        "https://habr.com/ru/articles/765334/"
+    ],
+    "KC868-ASR: креа-нода (креативная для креативных)": [
+        "https://habr.com/ru/companies/timeweb/articles/760396/"
+    ],
+    "Извлечение текста из файлов PDF при помощи Python": [
+        "https://habr.com/ru/companies/ruvds/articles/765246/"
+    ],
+    "Soft Robots. Мягкое решение жёстких задач": [
+        "https://habr.com/ru/companies/first/articles/763628/"
+    ],
+    "Технофобия: как люди боялись инноваций, но они так и не привели к концу света": [
+        "https://habr.com/ru/companies/gazprombank/articles/765088/"
+    ],
+    "Поиск внеземных цивилизаций с помощью спутниковой тарелки": [
+        "https://habr.com/ru/articles/765322/"
+    ],
+    "Что такое деньги": [
+        "https://habr.com/ru/companies/otus/articles/765152/"
+    ],
+    "Основы проектирования архитектуры простой социальной сети": [
+        "https://habr.com/ru/companies/otus/articles/765014/"
+    ],
+    "Аналог Tableau LOD в FineBI: 15 типичных кейсов": [
+        "https://habr.com/ru/companies/glowbyte/articles/765242/"
+    ],
+    "К2 Кибербезопасность выходит на рынок коммерческих SOC в партнерстве с «Лабораторией Касперского»": [
+        "https://habr.com/ru/companies/k2tech/articles/765344/"
+    ],
+    "Как продлить срок службы старых PHP-приложений": [
+        "https://habr.com/ru/companies/otus/articles/765340/"
+    ],
+    "Организация GPU-вычислений для машинного обучения в компании: проблемы и трудности": [
+        "https://habr.com/ru/companies/itglobalcom/articles/765288/"
+    ],
+    "Ключ к эффективности разработки: делать то, что нужно, но лишнего не делать": [
+        "https://habr.com/ru/articles/765144/"
+    ],
+    "Истории из жизни вредоносов: прячемся в автозагрузку ОС Windows": [
+        "https://habr.com/ru/companies/otus/articles/765228/"
+    ],
+    "Renga STDL: краткий обзор языка для расширения функциональности программы Renga": [
+        "https://habr.com/ru/companies/ascon/articles/765010/"
+    ],
+    "Необычные животные на суше": [
+        "https://habr.com/ru/companies/leroy_merlin/articles/765286/"
+    ],
+    "Подписываем образы контейнеров с помощью cosign, garantir и skopeo": [
+        "https://habr.com/ru/companies/otus/articles/765278/"
+    ],
+    "Pure.DI помогает сделать DI чистым": [
+        "https://habr.com/ru/articles/765112/"
+    ],
+    "В борьбе со сложностью, или Как обуздать лог-экспоненциальный алгоритм (со ссылкой на код)": [
+        "https://habr.com/ru/companies/m2tech/articles/765040/"
+    ],
+    "Детекция дефектов дорожного покрытия без размеченных данных: Хакатон, LiDAR, RANSAC, ICP и 44 бесcонных часов": [
+        "https://habr.com/ru/articles/765230/"
+    ],
+    "Захватывающее зрелище: как сохнет краска": [
+        "https://habr.com/ru/companies/ua-hosting/articles/765000/"
+    ],
+    "ПЛК Mitsubishi: как разобрать сетевой протокол и найти уязвимости в устройстве без использования прошивки": [
+        "https://habr.com/ru/companies/oleg-bunin/articles/764068/"
+    ],
+    "Вышел Chipmunk.v3": [
+        "https://habr.com/ru/articles/764936/"
+    ],
+    "Golang: как найти мёртвый код в проекте, а заодно оценить покрытие тестами живого кода": [
+        "https://habr.com/ru/companies/karuna/articles/764326/"
+    ],
+    "Magnet для Алисы": [
+        "https://habr.com/ru/articles/765282/"
+    ],
+    "Как «продать» OSS Framework? Propan -> FastStream": [
+        "https://habr.com/ru/articles/765154/"
+    ],
+    "Книги по Linux для начинающих и профессионалов: выбираем лучшее": [
+        "https://habr.com/ru/companies/ru_mts/articles/765308/"
+    ],
+    "Деревянный бушлат или белый халат?": [
+        "https://habr.com/ru/articles/765372/"
+    ],
+    "Microsoft собирается выпустить конкурента Chrome OS. Что это будет за система?": [
+        "https://habr.com/ru/companies/ru_mts/articles/765364/"
+    ],
+    "Cloud, Big Data, Security: чего ждать от первой дискуссионной конференции Deep cloud dive": [
+        "https://habr.com/ru/companies/beeline_cloud/articles/765268/"
+    ],
+    "Запуск потенциально опасного кода в изолированном окружении. Как мы сохраняем безопасность на macOS": [
+        "https://habr.com/ru/companies/avito/articles/765008/"
+    ],
+    "Реализация отражений и преломлений света в трассировщике (Введение в трассировку лучей — часть 5)": [
+        "https://habr.com/ru/articles/765196/"
+    ],
+    "Два крупных астероида одновременно сблизятся с Землёй в середине октября": [
+        "https://habr.com/ru/articles/765190/"
+    ],
+    "Экзамен для начинающих. PWN. bookshelf PatriotCTF 2023": [
+        "https://habr.com/ru/articles/765150/"
+    ],
+    "Расширенная гипотеза Коллатца, или проблема «nx+1» — часть I": [
+        "https://habr.com/ru/articles/765128/"
+    ],
+    "Исследуем Wisenet (Samsung) HRX-1620": [
+        "https://habr.com/ru/companies/bizone/articles/765324/"
+    ],
+    "«Синдром отката» против «Министерства будущего»: сравнение двух свежих технотриллеров от знаменитых фантастов": [
+        "https://habr.com/ru/articles/765320/"
+    ],
+    "О Prepare statements, серверном кэше скомпилированных запросов или как эффективно кэшировать запросы в YDB": [
+        "https://habr.com/ru/companies/ydb/articles/765318/"
+    ],
+    "Как коридорное исследование помогло обновить каунтеры тредов в мессенджере": [
+        "https://habr.com/ru/companies/webinargroup/articles/765258/"
+    ],
+    "Как типизировать Vuex Store": [
+        "https://habr.com/ru/articles/765164/"
+    ],
+    "Эволюция структур данных в языках программирования": [
+        "https://habr.com/ru/articles/765240/"
+    ],
+    "Кулинарный гид по Vue.js: всё о props": [
+        "https://habr.com/ru/companies/simbirsoft/articles/765024/"
+    ],
+    "«Порядок в зоопарке»: кому и зачем нужен зонтичный ИТ-мониторинг и как начать им пользоваться?": [
+        "https://habr.com/ru/companies/monq/articles/765130/"
+    ],
+    "Wi-Fi без Интернета на рейсе Southwest": [
+        "https://habr.com/ru/articles/765046/"
+    ],
+    "Приглашаем на Cinimex DEV meetup: ИТ-событие для разработчиков (офлайн/онлайн)": [
+        "https://habr.com/ru/companies/cinimex/articles/765330/"
+    ],
+    "Как мы внедряли Sentry. Часть 1 — установка и настройка": [
+        "https://habr.com/ru/articles/765302/"
+    ],
+    "Фундаментальные подходы при работе с Git": [
+        "https://habr.com/ru/articles/765264/"
+    ],
+    "Создание почтовых правил в Carbonio": [
+        "https://habr.com/ru/companies/Zextras/articles/765206/"
+    ]
+}
