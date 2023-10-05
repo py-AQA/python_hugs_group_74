@@ -12,6 +12,13 @@
 6kyu    queue                   https://www.codewars.com/kata/57b06f90e298a7b53d000a86
 
 
+Для следующего кодварса > 05.10.2023
+5kyu  snakes&ladders        https://www.codewars.com/kata/587136ba2eefcb92a9000027
+
+
+
+# ====================== ниже все уже пройденное - старое =====================
+
 Для вечернего кодварса 03.10.2023
 7kyu [::-1] len           https://www.codewars.com/kata/54557d61126a00423b000a45
 7kyu str map int sum      https://www.codewars.com/kata/55afed09237df73343000042
@@ -26,7 +33,6 @@
 6kyu    maze runner       https://www.codewars.com/kata/58663693b359c4a6560001d6
 
 Для вечернего кодварса 04.10.2023
-"# abcdefghijklmnopqrstuvwxyz"
 7kyu  super easy            https://www.codewars.com/kata/55955a48a4e9c1a77500005a
 7kyu  index sum enumerate   https://www.codewars.com/kata/598d91785d4ce3ec4f000018
 6kyu  func zip lc\map       https://www.codewars.com/kata/5825792ada030e9601000782
@@ -36,4 +42,3 @@
 7kyu  list\str  join        https://www.codewars.com/kata/5768a693a3205e1cc100071f
 6kyu  recursive list  cnt   https://www.codewars.com/kata/596f72bbe7cd7296d1000029
 6kyu  func closure          https://www.codewars.com/kata/5421c6a2dda52688f6000af8
-5kyu  snakes&ladders        https://www.codewars.com/kata/587136ba2eefcb92a9000027
