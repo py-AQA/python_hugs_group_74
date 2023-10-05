@@ -1,6 +1,7 @@
 from booker_api_tests.conftest import *
 
 
+@external_decorator
 def test_update_booking(token, bookingid):
     print(f"\n\t\tfunction {test_update_booking.__name__} called")
 

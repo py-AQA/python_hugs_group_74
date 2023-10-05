@@ -1,5 +1,7 @@
 import pytest
 import requests
+from functools import wraps
+
 
 BASE_URL_BOOKING = "https://restful-booker.herokuapp.com/booking"
 BASE_URL_AUTH = "https://restful-booker.herokuapp.com/auth"
@@ -66,3 +68,13 @@ def bookingid():
 
     print(f"\n\t\tfixture {bookingid.__name__} continue execution after yield")
     print(f"\n\t\tfixture {bookingid.__name__} done")
+
+
+def external_decorator(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        print(f"\n\t*external_decorator: Вызвана функция {func.__name__} с аргументами {args} и ключевыми аргументами {kwargs}.")
+        result = func(*args, **kwargs)
+        print(f"\n\t*external_decorator: Функция {func.__name__} вернула {result}.")
+        return result
+    return wrapper

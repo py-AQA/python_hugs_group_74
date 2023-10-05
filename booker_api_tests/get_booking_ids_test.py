@@ -1,5 +1,7 @@
 from booker_api_tests.conftest import *
 
+
+@external_decorator
 def test_get_booking_ids():
     print(f"\n\t\tfunction {test_get_booking_ids.__name__} called")
 
