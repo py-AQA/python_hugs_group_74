@@ -1,10 +1,4 @@
 6kyu    enc\dec [::]zip         https://www.codewars.com/kata/57814d79a56c88e3e0000786
-
-6kyu    str rev swapcase        https://www.codewars.com/kata/5878520d52628a092f0002d0
-6kyu    sub&sub  *              https://www.codewars.com/kata/57f8ff867a28db569e000c4a
-6kyu    resplit slice *         https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991
-6kyu    strng                   https://www.codewars.com/kata/53697be005f803751e0015aa
-6kyu    arr incrementer         https://www.codewars.com/kata/5514e5b77e6b2f38e0000ca9
 5kyu    str incrementer         https://www.codewars.com/kata/54a91a4883a7de5d7800009c
 6kyu    rev_alt                 https://www.codewars.com/kata/58d76854024c72c3e20000de
 6kyu    rev_process             https://www.codewars.com/kata/5dad6e5264e25a001918a1fc
@@ -42,3 +36,10 @@
 7kyu  list\str  join        https://www.codewars.com/kata/5768a693a3205e1cc100071f
 6kyu  recursive list  cnt   https://www.codewars.com/kata/596f72bbe7cd7296d1000029
 6kyu  func closure          https://www.codewars.com/kata/5421c6a2dda52688f6000af8
+
+Для утреннего кодварса 06.10.2023
+6kyu    str rev swapcase        https://www.codewars.com/kata/5878520d52628a092f0002d0
+6kyu    sub&sub  *              https://www.codewars.com/kata/57f8ff867a28db569e000c4a
+6kyu    resplit slice *         https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991
+6kyu    strng                   https://www.codewars.com/kata/53697be005f803751e0015aa
+6kyu    arr incrementer         https://www.codewars.com/kata/5514e5b77e6b2f38e0000ca9
