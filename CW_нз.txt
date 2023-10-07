@@ -1,6 +1,7 @@
+7kyu    super easy avg          https://www.codewars.com/kata/57b68bc7b69bfc8209000307
 7kyu    easy slices             https://www.codewars.com/kata/597bb84522bc93b71e00007e
 7kyu    easy zip tuples in      https://www.codewars.com/kata/5f6d533e1475f30001e47514
-7kyu    isaplha ord             https://www.codewars.com/kata/576bb3c4b1abc497ec000065
+7kyu    isalpha ord             https://www.codewars.com/kata/576bb3c4b1abc497ec000065
 7kyu    sum str                 https://www.codewars.com/kata/59377c53e66267c8f6000027
 6kyu    re.sub\split            https://www.codewars.com/kata/597770e98b4b340e5b000071
 5kyu    str incrementer         https://www.codewars.com/kata/54a91a4883a7de5d7800009c
