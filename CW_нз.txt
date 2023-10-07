@@ -1,10 +1,14 @@
-6kyu    enc\dec [::]zip         https://www.codewars.com/kata/57814d79a56c88e3e0000786
+7kyu    easy slices             https://www.codewars.com/kata/597bb84522bc93b71e00007e
+7kyu    easy zip tuples in      https://www.codewars.com/kata/5f6d533e1475f30001e47514
+7kyu    isaplha ord             https://www.codewars.com/kata/576bb3c4b1abc497ec000065
+7kyu    sum str                 https://www.codewars.com/kata/59377c53e66267c8f6000027
+6kyu    re.sub\split            https://www.codewars.com/kata/597770e98b4b340e5b000071
 5kyu    str incrementer         https://www.codewars.com/kata/54a91a4883a7de5d7800009c
 6kyu    rev_alt                 https://www.codewars.com/kata/58d76854024c72c3e20000de
 6kyu    rev_process             https://www.codewars.com/kata/5dad6e5264e25a001918a1fc
 6kyu    2for                    https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08
+6kyu    enc\dec [::]zip         https://www.codewars.com/kata/57814d79a56c88e3e0000786
 6kyu    queue                   https://www.codewars.com/kata/57b06f90e298a7b53d000a86
-
 
 Для следующего кодварса > 05.10.2023
 5kyu  snakes&ladders        https://www.codewars.com/kata/587136ba2eefcb92a9000027
