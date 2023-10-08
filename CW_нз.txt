@@ -1,12 +1,3 @@
-oop:
-7kyu    filter lst              https://www.codewars.com/kata/6089c7992df556001253ba7d
-7kyu    bank                    https://www.codewars.com/kata/5a03af9606d5b65ff7000009
-once again
-6kyu    maze runner             https://www.codewars.com/kata/58663693b359c4a6560001d6
-Для следующего кодварса > 05.10.2023
-5kyu  snakes&ladders            https://www.codewars.com/kata/587136ba2eefcb92a9000027
-
-
 7kyu    super easy avg          https://www.codewars.com/kata/57b68bc7b69bfc8209000307
 7kyu    easy slices             https://www.codewars.com/kata/597bb84522bc93b71e00007e
 7kyu    easy zip tuples in      https://www.codewars.com/kata/5f6d533e1475f30001e47514
@@ -23,7 +14,7 @@ once again
 
 # ====================== ниже все уже пройденное - старое =====================
 
-Для вечернего кодварса 03.10.2023
+===03.10.2023
 7kyu [::-1] len           https://www.codewars.com/kata/54557d61126a00423b000a45
 7kyu str map int sum      https://www.codewars.com/kata/55afed09237df73343000042
 7kyu enum lower str       https://www.codewars.com/kata/55d410c492e6ed767000004f
@@ -36,7 +27,7 @@ once again
 6kyu func chain           https://www.codewars.com/kata/54ca3e777120b56cb6000710
 6kyu    maze runner       https://www.codewars.com/kata/58663693b359c4a6560001d6
 
-Для вечернего кодварса 04.10.2023
+===04.10.2023
 7kyu  super easy            https://www.codewars.com/kata/55955a48a4e9c1a77500005a
 7kyu  index sum enumerate   https://www.codewars.com/kata/598d91785d4ce3ec4f000018
 6kyu  func zip lc\map       https://www.codewars.com/kata/5825792ada030e9601000782
@@ -47,9 +38,15 @@ once again
 6kyu  recursive list  cnt   https://www.codewars.com/kata/596f72bbe7cd7296d1000029
 6kyu  func closure          https://www.codewars.com/kata/5421c6a2dda52688f6000af8
 
-Для утреннего кодварса 06.10.2023
+===06.10.2023
 6kyu    str rev swapcase        https://www.codewars.com/kata/5878520d52628a092f0002d0
 6kyu    sub&sub  *              https://www.codewars.com/kata/57f8ff867a28db569e000c4a
 6kyu    resplit slice *         https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991
 6kyu    strng                   https://www.codewars.com/kata/53697be005f803751e0015aa
 6kyu    arr incrementer         https://www.codewars.com/kata/5514e5b77e6b2f38e0000ca9
+
+===08.10.2023
+7kyu    filter lst              https://www.codewars.com/kata/6089c7992df556001253ba7d
+7kyu    bank                    https://www.codewars.com/kata/5a03af9606d5b65ff7000009
+6kyu    maze runner             https://www.codewars.com/kata/58663693b359c4a6560001d6
+5kyu  snakes&ladders            https://www.codewars.com/kata/587136ba2eefcb92a9000027
