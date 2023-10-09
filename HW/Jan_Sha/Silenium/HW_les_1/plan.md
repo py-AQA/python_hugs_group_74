@@ -9,8 +9,10 @@ Accepted usernames are:
 pass: secret_sauce
 
 1. Проверка на наличие полей на странице авторизации: 
-    + - user_name (Do have placeholder?)
-    + - password (Do have placeholder?)
+    + - user_name 
+    + - (Do have placeholder?)
+    + - password 
+    + - (Do have placeholder?)
     + - button
 
 2. login verification: 
@@ -19,13 +21,13 @@ pass: secret_sauce
     + - войти под разными юзерами с НЕ валидными паролями
 
 3. Checking:
-    - the existence of the number of blocks
-    - the existence of the number of image 
-    - the existence of the number of button
-    - the existence of a short description of products 
-    - the existence of a cost products
+    + - the existence of the number of blocks
+    + - the existence of the number of image 
+    + - the existence of the number of button
+    + - the existence of a short description of products 
+    + - the existence of a cost products
 
-4. Add anything products to recycled
++ 4. Add anything products to recycled
 5. Remove added product from recycled
 6. Continue shopping
 7. First name, Second name, Zip_Code (valid or no?)

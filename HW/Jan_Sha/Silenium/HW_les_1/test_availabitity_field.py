@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
+# import time
 
 
 def test_availability_form_username():
