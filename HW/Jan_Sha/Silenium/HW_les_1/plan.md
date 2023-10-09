@@ -14,9 +14,9 @@ pass: secret_sauce
     + - button
 
 2. login verification: 
-    - войти под разными юзерами с валидными паролями
-    - logout system
-    - войти под разными юзерами с НЕ валидными паролями
+    + - войти под разными юзерами с валидными паролями
+    + - logout system
+    + - войти под разными юзерами с НЕ валидными паролями
 
 3. Checking:
     - the existence of the number of blocks
