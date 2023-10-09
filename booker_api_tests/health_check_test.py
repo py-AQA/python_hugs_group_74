@@ -1,6 +1,7 @@
 from booker_api_tests.conftest import *
 
 
+@external_decorator
 def test_health_check():
     print(f"\n\t\tfunction {test_health_check.__name__} called")
 

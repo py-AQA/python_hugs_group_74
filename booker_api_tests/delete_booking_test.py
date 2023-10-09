@@ -1,6 +1,7 @@
 from booker_api_tests.conftest import *
 
 
+@external_decorator
 def test_delete_booking(token, bookingid):
     print(f"\n\t\tfunction {test_delete_booking.__name__} called")
 
