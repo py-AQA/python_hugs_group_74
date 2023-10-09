@@ -1,3 +1,11 @@
+===09.10.2023
+7kyu    oop easy                https://www.codewars.com/kata/59ea2a532a7accf2510000ce
+6kyu    oop attr easy           https://www.codewars.com/kata/528d36d7cc451cd7e4000339
+6kyu    oop dec param med       https://www.codewars.com/kata/56f84d093b164c2e490013cb
+6kyu    oop type().__name__     https://www.codewars.com/kata/561f9d37e4786544e0000035
+6kyu    oop arr                 https://www.codewars.com/kata/5962bbea6878a381ed000036
+6kyu    oop router arr          https://www.codewars.com/kata/588a00ad70720f2cd9000005
+
 7kyu    super easy avg          https://www.codewars.com/kata/57b68bc7b69bfc8209000307
 7kyu    easy slices             https://www.codewars.com/kata/597bb84522bc93b71e00007e
 7kyu    easy zip tuples in      https://www.codewars.com/kata/5f6d533e1475f30001e47514
