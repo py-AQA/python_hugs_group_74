@@ -3,29 +3,43 @@ import math
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+from util import chrome_options
+
 
 # == Пример с геометрическими фигурами ==
 # Базовый класс
 class Shape:
+    @property
     def area(self):  # Абстрактный метод "площадь фигуры"
-        pass
+        raise NotImplementedError()
 
+    @property
     def perimeter(self):  # Абстрактный метод "периметр фигуры"
-        pass
+        raise NotImplementedError()
 
 
 class Circle(Shape):  # Класс "Круг"
     def __init__(self, radius):  # Конструктор класса
-        self.radius = radius
+        self.__radius = radius
 
+    @property
+    def radius(self):
+        return self.__radius
+
+    @radius.setter
+    def radius(self, radius):
+        self.__radius = radius
+
+    @property
     def area(self):  # Переопределение метода
-        return math.pi * (self.radius ** 2)
+        return math.pi * (self.__radius ** 2)
 
+    @property
     def perimeter(self):  # Переопределение метода
-        return 2 * math.pi * self.radius
+        return 2 * math.pi * self.__radius
 
     def __str__(self):  # Как показывать при печати
-        return f"Круг с радиусом {self.radius}"
+        return f"Круг с радиусом {self.__radius}"
 
 
 class Rectangle(Shape):  # Класс "Прямоугольник"
@@ -33,9 +47,11 @@ class Rectangle(Shape):  # Класс "Прямоугольник"
         self.width = width
         self.height = height
 
+    @property
     def area(self):  # Переопределение метода
         return self.width * self.height
 
+    @property
     def perimeter(self):  # Переопределение метода
         return 2 * (self.width + self.height)
 
@@ -50,10 +66,12 @@ class Triangle(Shape):
         self.b = b
         self.c = c
 
+    @property
     def area(self):  # Переопределение метода
         p = (self.a + self.b + self.c) / 2
         return math.sqrt(p * (p - self.a) * (p - self.b) * (p - self.c))
 
+    @property
     def perimeter(self):  # Переопределение метода
         return self.a + self.b + self.c
 
@@ -65,24 +83,27 @@ def test_shapes():
     # Создание объекта класса "Круг"
     circle = Circle(5)
     assert str(circle) == "Круг с радиусом 5"
-    assert abs(circle.area() - 78.53) < 0.01
-    assert abs(circle.perimeter() - 31.42) < 0.01
+    assert abs(circle.area - 78.53) < 0.01
+    assert abs(circle.perimeter - 31.42) < 0.01
     # Создание объекта класса "Прямоугольник"
     rectangle = Rectangle(4, 6)
     assert str(rectangle) == "Прямоугольник с шириной 4 и высотой 6"
-    assert rectangle.area() == 24
-    assert abs(rectangle.perimeter() - 20) < 0.01
+    assert rectangle.area == 24
+    assert abs(rectangle.perimeter - 20) < 0.01
     # Создание объекта класса "Треугольник"
     triangle = Triangle(4, 5, 3)
-    assert triangle.area() == 6.0
-    assert triangle.perimeter() == 12
+    assert triangle.area == 6.0
+    assert triangle.perimeter == 12
     assert str(triangle) == "Треугольник со сторонами 4, 5 и 3"
-    print(f"Площадь круга: {circle.area()}")
-    print(f"Периметр круга: {circle.perimeter()}")
-    print(f"Площадь прямоугольника: {rectangle.area()}")
-    print(f"Периметр прямоугольника: {rectangle.perimeter()}")
-    print(f"Площадь треугольника: {triangle.area()}")
-    print(f"Периметр треугольника: {triangle.perimeter()}")
+    print(f"Площадь круга: {circle.area}")
+    print(f"Периметр круга: {circle.perimeter}")
+    print(f"Площадь прямоугольника: {rectangle.area}")
+    print(f"Периметр прямоугольника: {rectangle.perimeter}")
+    print(f"Площадь треугольника: {triangle.area}")
+    print(f"Периметр треугольника: {triangle.perimeter}")
+    b = [circle, rectangle, triangle]
+    for i in b:
+        print(i.area)
 
 
 # == Пример композиции ==
@@ -235,11 +256,7 @@ class LoginPage:
 
 def test_login():
     # Инициализация драйвера Selenium для Chrome
-    options = webdriver.ChromeOptions()
-    options.add_argument('--headless')  # Run Chrome in headless mode.
-    options.add_argument('--no-sandbox')  # Bypass OS security model
-    options.add_argument('--disable-dev-shm-usage')  # Overcome limited resource problems
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Chrome(options=chrome_options())
     # Создание объекта Page Object
     login_page = LoginPage(driver)
     login_page.login("standard_user", "secret_sauce")
