@@ -14,16 +14,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Set up Python 3.12
+      - name: Устанавливаем Python 3.12
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
           cache: 'pip' # caching pip dependencies
-      - name: Install dependencies
+      - name: Устанавливаем зависимости
+        # Обновляю до последней версии pip
+        # Устанавливаю pytest и зависимости из requirements.txt
         run: |
-          python -m pip install --upgrade pip
+          python -m pip install --upgrade pip  
           pip install pytest
           pip install -r requirements.txt
-      - name: Test with pytest
+      - name: Запускаю pytest для "test_*.py" и "*_test.py"
         run: |
           pytest .
