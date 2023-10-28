@@ -1,0 +1,35 @@
+image: python:latest
+
+# Change pip's cache directory to be inside the project directory since we can
+# only cache local items.
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+# https://pip.pypa.io/en/stable/topics/caching/
+cache:
+  paths:
+    - .cache/pip
+
+before_script:
+  # Устанавливаю Chrome для Selenium
+  - apt-get update -qq && apt-get install -y -qq chromium-driver
+  # Обновляю pip
+  - pip install --upgrade pip
+  - pip install flake8
+  - python --version ; pip --version  # For debugging
+  - pip install -r requirements.txt
+
+test:
+  script:
+    # stop the build if there are Python syntax errors or undefined names
+    - flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+    # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+    - flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - pytest . # Run all python files with prefix "test_"
+
+stages:
+  - test
+sast:
+  stage: test
+include:
+  - template: Security/SAST.gitlab-ci.yml
