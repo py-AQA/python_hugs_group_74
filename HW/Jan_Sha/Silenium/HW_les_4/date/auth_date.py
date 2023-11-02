@@ -1,0 +1,2 @@
+CORRECT_LOGIN = 'jhgj@olm.hj'
+CORRECT_PASSWORD = '7P@G@xcMYRezL5U'
