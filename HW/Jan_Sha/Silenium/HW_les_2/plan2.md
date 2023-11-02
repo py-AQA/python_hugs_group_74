@@ -36,11 +36,11 @@ pass: secret_sauce
 
 #### test_cheking_standart_user.py
 
-    - the existence of the number of blocks
-    - the existence of the number of image 
-    - the existence of the number of button
-    - the existence of a short description of products 
-    - the existence of a cost products
+        - the existence of the number of blocks
+        - the existence of the number of image 
+        - the existence of the number of button
+        - the existence of a short description of products 
+        - the existence of a cost products
 
     + Number of blocks is equel number of image, number of button, a short description of products 
     and a cost products and NOT empty
@@ -54,6 +54,13 @@ pass: secret_sauce
     + - check items in the recycled, there must be number adding items
 
 1.5. Remove added product from recycled
+
+#### test_recycled_remove.py
+
+    - add 3 items (items_1, items_3, items_6) to the recycled
+    - remove items_3 and check --  items_1, items_6 must be into recycled
+    - refresh page and make sure again that items_1, items_6 are into recycled
+
 1.6. Continue shopping
 1.7. First name, Second name, Zip_Code (valid or no?)
 1.8. Finish button
