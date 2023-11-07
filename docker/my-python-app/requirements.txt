@@ -1,0 +1,5 @@
+flask
+requests  # Используется только эта библиотека
+numpy
+mysql-connector-python  # Подключаемся к MySQL
+

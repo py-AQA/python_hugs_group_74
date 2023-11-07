@@ -1,0 +1,29 @@
+# Пример конфигурации для Python и MySQL
+version: '3.8'
+services:
+  db:
+    image: mysql:latest  # Используем готовый образ
+    environment:
+      MYSQL_DATABASE: 'my_db'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_ROOT_PASSWORD: 'password'
+    ports:
+      - "3306:3306"
+    volumes:
+      - my-db:/var/lib/mysql
+      - ./my-python-app/my-db.sql:/my-db.sql
+    command: --init-file=/my-db.sql
+
+  app:
+    build: my-python-app   # Собрать контейнер из папки
+    environment:
+      - DB_HOST=db
+      - DB_USER=user
+      - DB_PASSWORD=password
+      - DB_NAME=my_db
+    depends_on:
+      - db
+
+volumes:
+  my-db:
