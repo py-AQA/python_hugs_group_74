@@ -20,6 +20,6 @@ def test_recycled_remove(driver):
 
     button_field = driver.find_elements(By.CSS_SELECTOR, BUTTON_ORDER_CSS_SELECTOR)
     for i in b:
-
-    for button_field_local in button_field[]:
+        pass
+    for button_field_local in button_field:
         button_field_local.click()
