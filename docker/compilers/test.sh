@@ -11,5 +11,9 @@ echo --== DMD D ==--
 dmd hw_d.d
 ./hw_d
 
+echo --== Mono C# ==--
+mcs hw.cs
+mono hw.exe
+
 echo --== Python ==--
 ./hw_python.py
