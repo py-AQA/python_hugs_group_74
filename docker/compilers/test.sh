@@ -7,5 +7,9 @@ echo --== GNU C++ ==--
 g++ -o hw_cpp hw_cpp.cpp
 ./hw_cpp
 
+echo --== DMD D ==--
+dmd hw_d.d
+./hw_d
+
 echo --== Python ==--
 ./hw_python.py
