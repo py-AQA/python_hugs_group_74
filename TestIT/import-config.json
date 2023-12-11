@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "htmlTagsActionType": "Default",
+  "columnsMapping": [
+    {
+      "columnName": "Действие",
+      "field": "stepsAction",
+      "valuesMapping": []
+    },
+    {
+      "columnName": "Действие постусловия",
+      "field": "postconditionStepsAction",
+      "valuesMapping": []
+    },
+    {
+      "columnName": "Действие предусловия",
+      "field": "preconditionStepsAction",
+      "valuesMapping": []
+    },
+    {
+      "columnName": "Название",
+      "field": "name",
+      "valuesMapping": []
+    },
+    {
+      "columnName": "Ожидаемый результат",
+      "field": "stepsExpected",
+      "valuesMapping": []
+    },
+    {
+      "columnName": "Приоритет",
+      "field": "priority",
+      "valuesMapping": [
+        {
+          "columnValue": "Высокий",
+          "fieldValue": "High"
+        },
+        {
+          "columnValue": "Низкий",
+          "fieldValue": "Low"
+        }
+      ]
+    },
+    {
+      "columnName": "Продолжительность",
+      "field": "duration",
+      "valuesMapping": []
+    },
+    {
+      "columnName": "Статус",
+      "field": "state",
+      "valuesMapping": [
+        {
+          "columnValue": "Готов",
+          "fieldValue": "Ready"
+        }
+      ]
+    }
+  ]
+}
