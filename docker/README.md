@@ -19,7 +19,7 @@ docker --version
 Docker version 24.0.6, build ed223bc
 ```
 
-Проверка что Docker работает:
+Проверка, что Docker работает:
 
 ```sh
 docker run hello-world
