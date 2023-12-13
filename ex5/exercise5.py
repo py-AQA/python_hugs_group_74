@@ -56,14 +56,14 @@ def gen_request(content: dict, id: int):
     if obj == "#/components/schemas/Activity":
         return {
             "id": id,
-            "title": f"Activity {id} {randint(1000, 10000)}",
+            "title": f"Activity {id}",
             "dueDate": "2023-12-11T22:08:18.7373723+00:00",
             "completed": choice((True, False))
         }
     elif obj == "#/components/schemas/Book":
         return {
             "id": id,
-            "title": f"Book {id} {randint(1000, 10000)}",
+            "title": f"Book {id}",
             "description": f"Description of book {id}",
             "pageCount": randint(100, 1000),
             "excerpt": f"Excerpt of book {id}",
@@ -73,7 +73,7 @@ def gen_request(content: dict, id: int):
         return {
             "id": id,
             "idBook": 1,
-            "firstName": f"First {id} {randint(1000, 10000)}",
+            "firstName": f"First Name {id}",
             "lastName": f"Last Name {id}"
         }
     elif obj == "#/components/schemas/CoverPhoto":
@@ -85,7 +85,7 @@ def gen_request(content: dict, id: int):
     elif obj == "#/components/schemas/User":
         return {
             "id": id,
-            "userName": f"User {id} {randint(1000, 10000)}",
+            "userName": f"User {id}",
             "password": str(randint(100000, 999999)),
         }
     assert False, obj
@@ -133,7 +133,7 @@ for p, config in r.json()['paths'].items():
     for method, schema in config.items():
         m = method.upper()
         count += 1
-        id = 4
+        id = randint(1, 10)
         if '{id}' in p or '{idBook}' in p:
             path = p.replace('{id}', str(id))
             if '{idBook}' in p:
@@ -141,7 +141,7 @@ for p, config in r.json()['paths'].items():
                 path = p.replace('{idBook}', str(id))
             do(f"{count}. {path} {m}", path, m, id)
             count += 1
-            idx = randint(100000, 999999)
+            idx = randint(2147483649, 9999999999)
             path = p.replace('{id}', str(idx)).replace('{idBook}', str(idx))
             do(f"{count}. {path} {m} - несуществующий id", path, m, idx)
         else:
