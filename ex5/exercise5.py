@@ -107,6 +107,7 @@ def do(header: str, path: str, m: str, id: int):
     if m in ['POST', 'PUT', 'PATCH']:
         req = gen_request(schema['requestBody']['content'], id)
     print_json("Тело запроса", req)
+    # Выполняем запрос
     if m == 'POST':
         res = requests.post(url, json=req)
     elif m == 'PUT':
@@ -119,21 +120,28 @@ def do(header: str, path: str, m: str, id: int):
         res = requests.delete(url)
     else:
         assert False, m
+    # Печатаем ответ
     print_response(res)
     print()
 
 
-# Скачиваем Swagger в формате JSON
+# Скачиваем описание API в формате Swagger-JSON
+# https://fakerestapi.azurewebsites.net/swagger/v1/swagger.json
 BASE_URL = 'https://fakerestapi.azurewebsites.net'
 r = requests.get(f'{BASE_URL}/swagger/v1/swagger.json')
 assert r.status_code == 200
+# Результаты будем писать в файл
 sys.stdout = open('exercise5.md', 'w', encoding='utf-8')
-count = 0  # Количество запросов
+count = 0  # Количество тест-кейсов
+# Разбираем описание API в формате Swagger-JSON
+# p - endpoint - путь на сайте
+# config - конфигурация этого конкретного EndPoint
 for p, config in r.json()['paths'].items():
     for method, schema in config.items():
-        m = method.upper()
-        count += 1
-        id = randint(1, 10)
+        m = method.upper()  # HTTP-метод: GET, POST, PUT, PATCH, DELETE
+        count += 1  # Увеличиваем количество тест-кейсов
+        id = randint(1, 10)  # Генерируем случайный id
+        # Подставляем id в путь
         if '{id}' in p or '{idBook}' in p:
             path = p.replace('{id}', str(id))
             if '{idBook}' in p:
